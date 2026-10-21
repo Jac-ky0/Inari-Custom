@@ -89,6 +89,7 @@ section{
 h2{
     font-size: 13vw;
     color: rgb(58, 2, 2);
+    mix-blend-mode: color-dodge;
 }
 
 .conteudoPrincipal{
@@ -126,6 +127,12 @@ h1{
 .tituloSecao{
     font-size: 60px;
     font-weight: 500;
+}
+
+.secao2{
+    align-items: center;
+    background-image: url("assets/fundo.jpeg");
+    position: relative;
 }
 
 .secao2:before{
